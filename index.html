@@ -2,25 +2,32 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confirmación de Asistencia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       margin: 0;
       padding: 0;
       height: 100vh;
-      width: 100vw;
-      overflow: hidden;
+      background: url("tu-imagen.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+
     iframe {
-      width: 100%;
-      height: 100%;
+      width: 95%;
+      max-width: 600px;
+      height: 90vh;
       border: none;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      background: white;
     }
   </style>
 </head>
 <body>
-  <!-- Aquí incrustamos tu formulario original de Google Apps Script -->
   <iframe src="https://script.google.com/macros/s/AKfycbznQiy3JgcR65KKKREmcnvaNYle2rEnaUMIvzfowuMIuPUtgElB4ube4IICVIkAFwdt/exec"></iframe>
 </body>
 </html>
