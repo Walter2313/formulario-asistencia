@@ -82,7 +82,7 @@
       }
       
       // ⚠️ Reemplaza con tu URL de WebApp de Google Apps Script
-      const url = "https://script.google.com/macros/s/AKfycbznQiy3JgcR65KKKREmcnvaNYle2rEnaUMIvzfowuMIuPUtgElB4ube4IICVIkAFwdt/exec" + identificacion;
+      const url = "https://script.google.com/macros/s/AKfycbznQiy3JgcR65KKKREmcnvaNYle2rEnaUMIvzfowuMIuPUtgElB4ube4IICVIkAFwdt/exec?identificacion=" + identificacion;
       
       try {
         let resp = await fetch(url);
@@ -99,3 +99,4 @@
 </body>
 
 </html>
+
